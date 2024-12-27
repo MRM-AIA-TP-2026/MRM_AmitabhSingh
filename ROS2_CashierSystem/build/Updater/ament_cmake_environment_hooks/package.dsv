@@ -1,0 +1,4 @@
+source;share/Updater/local_setup.bash
+source;share/Updater/local_setup.dsv
+source;share/Updater/local_setup.sh
+source;share/Updater/local_setup.zsh

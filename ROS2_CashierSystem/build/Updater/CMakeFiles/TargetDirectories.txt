@@ -1,0 +1,10 @@
+/home/amitabh/ROS2_CashierSystem/build/Updater/CMakeFiles/uninstall.dir
+/home/amitabh/ROS2_CashierSystem/build/Updater/CMakeFiles/Updater_uninstall.dir
+/home/amitabh/ROS2_CashierSystem/build/Updater/CMakeFiles/Updater_node.dir
+/home/amitabh/ROS2_CashierSystem/build/Updater/CMakeFiles/test.dir
+/home/amitabh/ROS2_CashierSystem/build/Updater/CMakeFiles/edit_cache.dir
+/home/amitabh/ROS2_CashierSystem/build/Updater/CMakeFiles/rebuild_cache.dir
+/home/amitabh/ROS2_CashierSystem/build/Updater/CMakeFiles/list_install_components.dir
+/home/amitabh/ROS2_CashierSystem/build/Updater/CMakeFiles/install.dir
+/home/amitabh/ROS2_CashierSystem/build/Updater/CMakeFiles/install/local.dir
+/home/amitabh/ROS2_CashierSystem/build/Updater/CMakeFiles/install/strip.dir

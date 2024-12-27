@@ -1,0 +1,494 @@
+[0.000000] (-) TimerEvent: {}
+[0.001045] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.001112] (Display) JobQueued: {'identifier': 'Display', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces')])}
+[0.001149] (Publisher) JobQueued: {'identifier': 'Publisher', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces')])}
+[0.001179] (Updater) JobQueued: {'identifier': 'Updater', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces')])}
+[0.001207] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.009997] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.010634] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/amitabh/ROS2_CashierSystem/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces'], 'cwd': '/home/amitabh/ROS2_CashierSystem/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'amitabh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amitabh'), ('OLDPWD', '/home/amitabh/ROS2_CashierSystem/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amitabh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amitabh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amitabh-HP:@/tmp/.ICE-unix/1577,unix/amitabh-HP:/tmp/.ICE-unix/1577'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/10132dae_d643_405b_a0b5_8bd49b7a389d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CML2Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.354'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amitabh/ROS2_CashierSystem/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/amitabh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.084214] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099678] (-) TimerEvent: {}
+[0.153958] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.163189] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199864] (-) TimerEvent: {}
+[0.257556] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.264459] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.264825] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.265068] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.267928] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300073] (-) TimerEvent: {}
+[0.375002] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.381521] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.381868] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.382184] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.384447] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400213] (-) TimerEvent: {}
+[0.500671] (-) TimerEvent: {}
+[0.550083] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600814] (-) TimerEvent: {}
+[0.691833] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.700974] (-) TimerEvent: {}
+[0.723657] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.728685] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.736340] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.747596] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.762357] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.798451] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.801106] (-) TimerEvent: {}
+[0.901478] (-) TimerEvent: {}
+[1.001851] (-) TimerEvent: {}
+[1.096384] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.101971] (-) TimerEvent: {}
+[1.202309] (-) TimerEvent: {}
+[1.302665] (-) TimerEvent: {}
+[1.402994] (-) TimerEvent: {}
+[1.484864] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.503139] (-) TimerEvent: {}
+[1.603474] (-) TimerEvent: {}
+[1.635710] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.658442] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.659614] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.685452] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.685710] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.685810] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.685903] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.703660] (-) TimerEvent: {}
+[1.706148] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.763334] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.780550] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.781698] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.784224] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.803807] (-) TimerEvent: {}
+[1.825302] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.838444] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/amitabh/ROS2_CashierSystem/build/tutorial_interfaces\n'}
+[1.855128] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[1.856026] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[1.857415] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/amitabh/ROS2_CashierSystem/build/tutorial_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/amitabh/ROS2_CashierSystem/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'amitabh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amitabh'), ('OLDPWD', '/home/amitabh/ROS2_CashierSystem/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amitabh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amitabh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amitabh-HP:@/tmp/.ICE-unix/1577,unix/amitabh-HP:/tmp/.ICE-unix/1577'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/10132dae_d643_405b_a0b5_8bd49b7a389d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CML2Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.354'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amitabh/ROS2_CashierSystem/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/amitabh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.903961] (-) TimerEvent: {}
+[1.910737] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.922110] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.933757] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[2.004066] (-) TimerEvent: {}
+[2.104407] (-) TimerEvent: {}
+[2.168604] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.169264] (tutorial_interfaces) StdoutLine: {'line': b'creating tutorial_interfaces.egg-info\n'}
+[2.169528] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[2.169781] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[2.169991] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[2.171438] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[2.173727] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[2.174229] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[2.204546] (-) TimerEvent: {}
+[2.223421] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[2.271313] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/display__functions.c.o\x1b[0m\n'}
+[2.271539] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[2.275223] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] Built target tutorial_interfaces__cpp\n'}
+[2.287243] (tutorial_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.287484] (tutorial_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.287551] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.304681] (-) TimerEvent: {}
+[2.348499] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.393987] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[2.405170] (-) TimerEvent: {}
+[2.409373] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.409645] (tutorial_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.409728] (tutorial_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.505273] (-) TimerEvent: {}
+[2.578175] (tutorial_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[2.578429] (tutorial_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/display__type_support.cpp.o\x1b[0m\n'}
+[2.605483] (-) TimerEvent: {}
+[2.706913] (-) TimerEvent: {}
+[2.732147] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/display__type_support.cpp.o\x1b[0m\n'}
+[2.739247] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[2.760013] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[2.807031] (-) TimerEvent: {}
+[2.820948] (tutorial_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[2.837324] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[2.886521] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/display__type_support.cpp.o\x1b[0m\n'}
+[2.905785] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[2.907173] (-) TimerEvent: {}
+[2.943351] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.968076] (tutorial_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/display__type_support.c.o\x1b[0m\n'}
+[2.975728] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/display__type_support.cpp.o\x1b[0m\n'}
+[3.007298] (-) TimerEvent: {}
+[3.025516] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[3.030720] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.041087] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.042840] (tutorial_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/display__type_support_c.cpp.o\x1b[0m\n'}
+[3.107443] (-) TimerEvent: {}
+[3.107938] (tutorial_interfaces) StdoutLine: {'line': b'[ 66%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.152451] (tutorial_interfaces) StdoutLine: {'line': b'[ 66%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[3.207591] (-) TimerEvent: {}
+[3.308150] (-) TimerEvent: {}
+[3.389998] (tutorial_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.408276] (-) TimerEvent: {}
+[3.491576] (tutorial_interfaces) StdoutLine: {'line': b'[ 69%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.508427] (-) TimerEvent: {}
+[3.561631] (tutorial_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.602691] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.608576] (-) TimerEvent: {}
+[3.681661] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.708715] (-) TimerEvent: {}
+[3.715568] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.739735] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces\n'}
+[3.766483] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.808850] (-) TimerEvent: {}
+[3.909231] (-) TimerEvent: {}
+[4.009588] (-) TimerEvent: {}
+[4.109999] (-) TimerEvent: {}
+[4.163504] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__py\n'}
+[4.188211] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_display_s.c.o\x1b[0m\n'}
+[4.188414] (tutorial_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[4.210127] (-) TimerEvent: {}
+[4.295591] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[4.310244] (-) TimerEvent: {}
+[4.347112] (tutorial_interfaces) StdoutLine: {'line': b'[ 84%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[4.369970] (tutorial_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.370266] (tutorial_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.370375] (tutorial_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.410377] (-) TimerEvent: {}
+[4.477830] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.478057] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.478124] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.510508] (-) TimerEvent: {}
+[4.521832] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.522161] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.522299] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.536741] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[4.537761] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[4.548798] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/amitabh/ROS2_CashierSystem/build/tutorial_interfaces'], 'cwd': '/home/amitabh/ROS2_CashierSystem/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'amitabh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amitabh'), ('OLDPWD', '/home/amitabh/ROS2_CashierSystem/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amitabh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amitabh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amitabh-HP:@/tmp/.ICE-unix/1577,unix/amitabh-HP:/tmp/.ICE-unix/1577'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/10132dae_d643_405b_a0b5_8bd49b7a389d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CML2Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.354'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amitabh/ROS2_CashierSystem/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/amitabh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.557890] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.558179] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[4.558346] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[4.558500] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[4.558606] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[4.558757] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[4.558856] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[4.558996] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[4.559119] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[4.559231] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[4.559331] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.559551] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[4.559656] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[4.559795] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__struct.h\n'}
+[4.559892] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__functions.c\n'}
+[4.560047] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__functions.h\n'}
+[4.560160] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__type_support.h\n'}
+[4.560281] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/display.h\n'}
+[4.560411] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[4.560569] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[4.560765] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[4.561136] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.561301] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[4.561397] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[4.561489] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[4.561630] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[4.561728] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.561820] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[4.561911] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[4.562063] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__rosidl_typesupport_fastrtps_c.h\n'}
+[4.562165] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.562299] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.562395] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[4.562512] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[4.562606] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[4.562698] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[4.562832] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[4.562932] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[4.563056] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp\n'}
+[4.563151] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.563288] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[4.563378] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[4.563470] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[4.563561] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__builder.hpp\n'}
+[4.563693] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__traits.hpp\n'}
+[4.563783] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__struct.hpp\n'}
+[4.563875] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__type_support.hpp\n'}
+[4.563999] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/display.hpp\n'}
+[4.564138] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[4.564228] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[4.564344] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[4.564437] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[4.564528] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.564674] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.564765] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[4.564856] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[4.564986] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[4.565085] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.565172] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.565294] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.565390] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[4.565481] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[4.565615] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[4.565712] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[4.565805] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[4.565947] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.566073] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[4.566163] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[4.566259] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__rosidl_typesupport_introspection_c.h\n'}
+[4.566354] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__type_support.c\n'}
+[4.566471] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.566604] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.566698] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[4.566887] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.567038] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[4.567148] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[4.567243] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[4.567338] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.567478] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[4.567571] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[4.567665] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[4.567757] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__type_support.cpp\n'}
+[4.567893] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/display__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.568011] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.568132] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.568245] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.568462] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.568582] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[4.568701] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[4.568813] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[4.569010] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.569141] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.569281] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.569404] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.569577] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[4.569757] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.569881] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg\n'}
+[4.570030] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py\n'}
+[4.570129] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[4.570254] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py\n'}
+[4.570364] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.570474] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.570580] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv\n'}
+[4.570702] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_display_s.c\n'}
+[4.570816] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_display.py\n'}
+[4.570937] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py\n'}
+[4.571068] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.571218] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.571354] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.571502] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[4.571661] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[4.603274] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[4.603520] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...\n"}
+[4.603621] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...\n"}
+[4.603712] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py'...\n"}
+[4.603803] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py'...\n"}
+[4.603893] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...\n"}
+[4.604024] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py'...\n"}
+[4.604117] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_display.py'...\n"}
+[4.609318] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.609994] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.610204] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.610533] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.610597] (-) TimerEvent: {}
+[4.610714] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.611079] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.611204] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[4.611506] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[4.611612] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[4.611823] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/srv/Display.idl\n'}
+[4.611989] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[4.612143] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/srv/Display.srv\n'}
+[4.612296] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/srv/Display_Request.msg\n'}
+[4.612432] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/srv/Display_Response.msg\n'}
+[4.612630] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[4.612850] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[4.613001] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[4.613156] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.613314] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[4.613464] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[4.613609] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[4.613756] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[4.613906] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[4.614044] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[4.614190] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[4.614381] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[4.614577] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.614736] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.614899] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.615071] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.615234] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.615393] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.615546] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.615705] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.615868] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.616045] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.616199] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.616362] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.616522] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.616684] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.616837] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.617024] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.617189] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.617333] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.617479] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.617633] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.617780] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.617938] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.618092] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.618235] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.618381] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[4.618506] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[4.618653] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[4.621908] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[4.639712] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[4.641002] (Display) JobStarted: {'identifier': 'Display'}
+[4.643899] (Publisher) JobStarted: {'identifier': 'Publisher'}
+[4.646655] (Updater) JobStarted: {'identifier': 'Updater'}
+[4.651129] (Display) JobProgress: {'identifier': 'Display', 'progress': 'cmake'}
+[4.651541] (Display) Command: {'cmd': ['/usr/bin/cmake', '/home/amitabh/ROS2_CashierSystem/src/Display', '-DCMAKE_INSTALL_PREFIX=/home/amitabh/ROS2_CashierSystem/install/Display'], 'cwd': '/home/amitabh/ROS2_CashierSystem/build/Display', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'amitabh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amitabh'), ('OLDPWD', '/home/amitabh/ROS2_CashierSystem/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amitabh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amitabh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amitabh-HP:@/tmp/.ICE-unix/1577,unix/amitabh-HP:/tmp/.ICE-unix/1577'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/10132dae_d643_405b_a0b5_8bd49b7a389d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CML2Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.354'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amitabh/ROS2_CashierSystem/build/Display'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/amitabh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.653333] (Publisher) JobProgress: {'identifier': 'Publisher', 'progress': 'cmake'}
+[4.653515] (Publisher) Command: {'cmd': ['/usr/bin/cmake', '/home/amitabh/ROS2_CashierSystem/src/Publisher', '-DCMAKE_INSTALL_PREFIX=/home/amitabh/ROS2_CashierSystem/install/Publisher'], 'cwd': '/home/amitabh/ROS2_CashierSystem/build/Publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'amitabh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amitabh'), ('OLDPWD', '/home/amitabh/ROS2_CashierSystem/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amitabh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amitabh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amitabh-HP:@/tmp/.ICE-unix/1577,unix/amitabh-HP:/tmp/.ICE-unix/1577'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/10132dae_d643_405b_a0b5_8bd49b7a389d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CML2Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.354'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amitabh/ROS2_CashierSystem/build/Publisher'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/amitabh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.657670] (Updater) JobProgress: {'identifier': 'Updater', 'progress': 'cmake'}
+[4.658394] (Updater) Command: {'cmd': ['/usr/bin/cmake', '/home/amitabh/ROS2_CashierSystem/src/Updater', '-DCMAKE_INSTALL_PREFIX=/home/amitabh/ROS2_CashierSystem/install/Updater'], 'cwd': '/home/amitabh/ROS2_CashierSystem/build/Updater', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'amitabh'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/amitabh'), ('OLDPWD', '/home/amitabh/ROS2_CashierSystem/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1759'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'amitabh'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'amitabh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/amitabh-HP:@/tmp/.ICE-unix/1577,unix/amitabh-HP:/tmp/.ICE-unix/1577'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/10132dae_d643_405b_a0b5_8bd49b7a389d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CML2Y2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.354'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/amitabh/ROS2_CashierSystem/build/Updater'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/amitabh/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.710802] (-) TimerEvent: {}
+[4.715752] (Display) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.717581] (Publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.723508] (Updater) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.782549] (Display) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.785516] (Publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.789826] (Updater) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.791098] (Display) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.794855] (Publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.797507] (Updater) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.810979] (-) TimerEvent: {}
+[4.878162] (Display) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.878388] (Publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.881502] (Updater) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.884618] (Publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.884806] (Publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.884928] (Display) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.885185] (Display) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.885269] (Publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.885567] (Display) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.887944] (Updater) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.888164] (Publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.888375] (Updater) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.888537] (Display) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.888623] (Updater) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.892207] (Updater) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.911106] (-) TimerEvent: {}
+[4.991294] (Display) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.991531] (Publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.998432] (Display) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.998783] (Display) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.998987] (Display) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.999796] (Publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.000035] (Publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.000391] (Publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.001322] (Display) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.002905] (Publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.003333] (Updater) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.011224] (-) TimerEvent: {}
+[5.011573] (Updater) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.011812] (Updater) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.012266] (Updater) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.014714] (Updater) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.111337] (-) TimerEvent: {}
+[5.189843] (Display) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.196967] (Publisher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.211444] (-) TimerEvent: {}
+[5.213947] (Updater) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.299880] (Display) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.310419] (Publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.311513] (-) TimerEvent: {}
+[5.320774] (Updater) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.337499] (Display) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.342319] (Display) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.348513] (Publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.349499] (Display) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.352959] (Publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.359383] (Updater) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.360572] (Publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.360769] (Display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.364014] (Updater) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.371422] (Publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.371688] (Updater) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.375644] (Display) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.382602] (Updater) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.385764] (Publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.397002] (Updater) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.411652] (-) TimerEvent: {}
+[5.415308] (Display) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.417648] (Display) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.425629] (Publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.427900] (Publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.436611] (Updater) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.438872] (Updater) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.511776] (-) TimerEvent: {}
+[5.525686] (Display) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.531049] (Publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.544975] (Updater) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.555580] (Display) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.560616] (Publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.574437] (Updater) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.598573] (Display) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.604502] (Publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.606235] (Display) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.611917] (-) TimerEvent: {}
+[5.612895] (Publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.618373] (Updater) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.626853] (Updater) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.693410] (Display) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.693833] (Display) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.699071] (Publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.699517] (Publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.712072] (-) TimerEvent: {}
+[5.715098] (Updater) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.715720] (Updater) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.780754] (Display) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.781842] (Display) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.790592] (Publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.791837] (Publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.802062] (Updater) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.803032] (Updater) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.812195] (-) TimerEvent: {}
+[5.828507] (Display) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[5.837298] (Publisher) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[5.847905] (Updater) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[5.853285] (Display) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (target_include_directories):\n'}
+[5.853569] (Display) StderrLine: {'line': b'  Cannot specify include directories for target "disp_node" which is not\n'}
+[5.853672] (Display) StderrLine: {'line': b'  built by this project.\n'}
+[5.853760] (Display) StderrLine: {'line': b'\n'}
+[5.853847] (Display) StderrLine: {'line': b'\x1b[0m\n'}
+[5.855297] (Display) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.864582] (Publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.875236] (Updater) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.908869] (Display) StderrLine: {'line': b'WARNING: Package name "Display" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[5.912321] (-) TimerEvent: {}
+[5.920870] (Publisher) StderrLine: {'line': b'WARNING: Package name "Publisher" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[5.931504] (Updater) StderrLine: {'line': b'WARNING: Package name "Updater" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[5.941404] (Display) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.941762] (Display) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.941862] (Display) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.942270] (Display) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.943335] (Display) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.943501] (Display) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.943800] (Display) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.945177] (Display) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.945352] (Display) StdoutLine: {'line': b'See also "/home/amitabh/ROS2_CashierSystem/build/Display/CMakeFiles/CMakeOutput.log".\n'}
+[5.954706] (Publisher) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.954981] (Publisher) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/amitabh/ROS2_CashierSystem/src/Publisher/include>\n'}
+[5.955055] (Publisher) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.955478] (Publisher) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.956500] (Publisher) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.956664] (Publisher) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.956940] (Publisher) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.958213] (Display) CommandEnded: {'returncode': 1}
+[5.958994] (Publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.965515] (Updater) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.965798] (Updater) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/amitabh/ROS2_CashierSystem/src/Updater/include>\n'}
+[5.965905] (Updater) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.966387] (Updater) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.967410] (Updater) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.967619] (Updater) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.968029] (Updater) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.969363] (Updater) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.969590] (Publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[5.974321] (Publisher) StdoutLine: {'line': b'-- Build files have been written to: /home/amitabh/ROS2_CashierSystem/build/Publisher\n'}
+[5.976463] (Display) JobEnded: {'identifier': 'Display', 'rc': 1}
+[5.980458] (Updater) StdoutLine: {'line': b'-- Generating done\n'}
+[5.984499] (Updater) StdoutLine: {'line': b'-- Build files have been written to: /home/amitabh/ROS2_CashierSystem/build/Updater\n'}
+[5.986414] (Publisher) JobEnded: {'identifier': 'Publisher', 'rc': 'SIGINT'}
+[5.996235] (Updater) JobEnded: {'identifier': 'Updater', 'rc': 'SIGINT'}
+[6.007291] (-) EventReactorShutdown: {}

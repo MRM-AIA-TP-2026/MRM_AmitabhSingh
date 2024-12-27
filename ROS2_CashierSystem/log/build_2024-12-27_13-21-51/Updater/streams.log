@@ -1,0 +1,34 @@
+[0.020s] Invoking command in '/home/amitabh/ROS2_CashierSystem/build/Updater': AMENT_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amitabh/ROS2_CashierSystem/build/Updater -- -j8 -l8
+[0.094s] [ 50%] [32mBuilding CXX object CMakeFiles/Updater_node.dir/src/Updater_node.cpp.o[0m
+[2.942s] [01m[K/home/amitabh/ROS2_CashierSystem/src/Updater/src/Updater_node.cpp:[m[K In member function ‘[01m[Kvoid Subscriber::request(std::shared_ptr<tutorial_interfaces::srv::Display_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::Display_Response_<std::allocator<void> > >)[m[K’:
+[2.943s] [01m[K/home/amitabh/ROS2_CashierSystem/src/Updater/src/Updater_node.cpp:83:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.943s]    83 | [01;35m[Kstd::shared_ptr<tutorial_interfaces::srv::Display::Request> request[m[K,std::shared_ptr<tutorial_interfaces::srv::Display::Response> response)
+[2.943s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.943s] 
+[2.943s] [01m[K/home/amitabh/ROS2_CashierSystem/src/Updater/src/Updater_node.cpp:83:149:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.943s]    83 | ,[01;35m[Kstd::shared_ptr<tutorial_interfaces::srv::Display::Response> response[m[K)
+[2.943s]       |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.943s] 
+[9.139s] [100%] [32m[1mLinking CXX executable Updater_node[0m
+[9.721s] [100%] Built target Updater_node
+[9.736s] Invoked command in '/home/amitabh/ROS2_CashierSystem/build/Updater' returned '0': AMENT_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amitabh/ROS2_CashierSystem/build/Updater -- -j8 -l8
+[9.737s] Invoking command in '/home/amitabh/ROS2_CashierSystem/build/Updater': AMENT_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amitabh/ROS2_CashierSystem/build/Updater
+[9.746s] -- Install configuration: ""
+[9.746s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/lib/Updater/Updater_node
+[9.750s] -- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/Updater/lib/Updater/Updater_node" to ""
+[9.750s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/ament_index/resource_index/package_run_dependencies/Updater
+[9.750s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/ament_index/resource_index/parent_prefix_path/Updater
+[9.751s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/ament_prefix_path.sh
+[9.751s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/ament_prefix_path.dsv
+[9.751s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/path.sh
+[9.751s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/path.dsv
+[9.751s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.bash
+[9.751s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.sh
+[9.751s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.zsh
+[9.751s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.dsv
+[9.752s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/package.dsv
+[9.752s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/ament_index/resource_index/packages/Updater
+[9.752s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/cmake/UpdaterConfig.cmake
+[9.752s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/cmake/UpdaterConfig-version.cmake
+[9.752s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/package.xml
+[9.756s] Invoked command in '/home/amitabh/ROS2_CashierSystem/build/Updater' returned '0': AMENT_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amitabh/ROS2_CashierSystem/build/Updater

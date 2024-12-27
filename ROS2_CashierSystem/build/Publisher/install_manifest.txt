@@ -1,0 +1,16 @@
+/home/amitabh/ROS2_CashierSystem/install/Publisher/lib/Publisher/Publisher_node
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/ament_index/resource_index/package_run_dependencies/Publisher
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/ament_index/resource_index/parent_prefix_path/Publisher
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/environment/ament_prefix_path.sh
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/environment/ament_prefix_path.dsv
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/environment/path.sh
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/environment/path.dsv
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/local_setup.bash
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/local_setup.sh
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/local_setup.zsh
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/local_setup.dsv
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/package.dsv
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/ament_index/resource_index/packages/Publisher
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/cmake/PublisherConfig.cmake
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/cmake/PublisherConfig-version.cmake
+/home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/package.xml

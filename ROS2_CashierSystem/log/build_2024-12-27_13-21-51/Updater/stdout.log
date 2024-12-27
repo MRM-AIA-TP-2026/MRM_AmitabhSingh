@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/Updater_node.dir/src/Updater_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable Updater_node[0m
+[100%] Built target Updater_node
+-- Install configuration: ""
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/lib/Updater/Updater_node
+-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/Updater/lib/Updater/Updater_node" to ""
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/ament_index/resource_index/package_run_dependencies/Updater
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/ament_index/resource_index/parent_prefix_path/Updater
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/ament_prefix_path.sh
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/ament_prefix_path.dsv
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/path.sh
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/path.dsv
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.bash
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.sh
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.zsh
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.dsv
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/package.dsv
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/ament_index/resource_index/packages/Updater
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/cmake/UpdaterConfig.cmake
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/cmake/UpdaterConfig-version.cmake
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/package.xml

@@ -1,0 +1,10 @@
+/home/amitabh/ROS2_CashierSystem/build/Display/CMakeFiles/uninstall.dir
+/home/amitabh/ROS2_CashierSystem/build/Display/CMakeFiles/Display_uninstall.dir
+/home/amitabh/ROS2_CashierSystem/build/Display/CMakeFiles/Display_node.dir
+/home/amitabh/ROS2_CashierSystem/build/Display/CMakeFiles/test.dir
+/home/amitabh/ROS2_CashierSystem/build/Display/CMakeFiles/edit_cache.dir
+/home/amitabh/ROS2_CashierSystem/build/Display/CMakeFiles/rebuild_cache.dir
+/home/amitabh/ROS2_CashierSystem/build/Display/CMakeFiles/list_install_components.dir
+/home/amitabh/ROS2_CashierSystem/build/Display/CMakeFiles/install.dir
+/home/amitabh/ROS2_CashierSystem/build/Display/CMakeFiles/install/local.dir
+/home/amitabh/ROS2_CashierSystem/build/Display/CMakeFiles/install/strip.dir

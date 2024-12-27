@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/amitabh/ROS2_CashierSystem/build/Publisher': AMENT_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amitabh/ROS2_CashierSystem/build/Publisher -- -j8 -l8
+[0.093s] [ 50%] [32mBuilding CXX object CMakeFiles/Publisher_node.dir/src/Publisher_node.cpp.o[0m
+[4.750s] [100%] [32m[1mLinking CXX executable Publisher_node[0m
+[4.986s] [100%] Built target Publisher_node
+[5.001s] Invoked command in '/home/amitabh/ROS2_CashierSystem/build/Publisher' returned '0': AMENT_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amitabh/ROS2_CashierSystem/build/Publisher -- -j8 -l8
+[5.003s] Invoking command in '/home/amitabh/ROS2_CashierSystem/build/Publisher': AMENT_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amitabh/ROS2_CashierSystem/build/Publisher
+[5.011s] -- Install configuration: ""
+[5.012s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/lib/Publisher/Publisher_node
+[5.013s] -- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/Publisher/lib/Publisher/Publisher_node" to ""
+[5.013s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/ament_index/resource_index/package_run_dependencies/Publisher
+[5.013s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/ament_index/resource_index/parent_prefix_path/Publisher
+[5.014s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/environment/ament_prefix_path.sh
+[5.014s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/environment/ament_prefix_path.dsv
+[5.014s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/environment/path.sh
+[5.014s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/environment/path.dsv
+[5.014s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/local_setup.bash
+[5.014s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/local_setup.sh
+[5.015s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/local_setup.zsh
+[5.015s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/local_setup.dsv
+[5.015s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/package.dsv
+[5.015s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/ament_index/resource_index/packages/Publisher
+[5.015s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/cmake/PublisherConfig.cmake
+[5.016s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/cmake/PublisherConfig-version.cmake
+[5.016s] -- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/package.xml
+[5.019s] Invoked command in '/home/amitabh/ROS2_CashierSystem/build/Publisher' returned '0': AMENT_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amitabh/ROS2_CashierSystem/build/Publisher

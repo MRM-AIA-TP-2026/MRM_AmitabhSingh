@@ -1,0 +1,16 @@
+/home/amitabh/ROS2_CashierSystem/install/Display/lib/Display/Display_node
+/home/amitabh/ROS2_CashierSystem/install/Display/share/ament_index/resource_index/package_run_dependencies/Display
+/home/amitabh/ROS2_CashierSystem/install/Display/share/ament_index/resource_index/parent_prefix_path/Display
+/home/amitabh/ROS2_CashierSystem/install/Display/share/Display/environment/ament_prefix_path.sh
+/home/amitabh/ROS2_CashierSystem/install/Display/share/Display/environment/ament_prefix_path.dsv
+/home/amitabh/ROS2_CashierSystem/install/Display/share/Display/environment/path.sh
+/home/amitabh/ROS2_CashierSystem/install/Display/share/Display/environment/path.dsv
+/home/amitabh/ROS2_CashierSystem/install/Display/share/Display/local_setup.bash
+/home/amitabh/ROS2_CashierSystem/install/Display/share/Display/local_setup.sh
+/home/amitabh/ROS2_CashierSystem/install/Display/share/Display/local_setup.zsh
+/home/amitabh/ROS2_CashierSystem/install/Display/share/Display/local_setup.dsv
+/home/amitabh/ROS2_CashierSystem/install/Display/share/Display/package.dsv
+/home/amitabh/ROS2_CashierSystem/install/Display/share/ament_index/resource_index/packages/Display
+/home/amitabh/ROS2_CashierSystem/install/Display/share/Display/cmake/DisplayConfig.cmake
+/home/amitabh/ROS2_CashierSystem/install/Display/share/Display/cmake/DisplayConfig-version.cmake
+/home/amitabh/ROS2_CashierSystem/install/Display/share/Display/package.xml

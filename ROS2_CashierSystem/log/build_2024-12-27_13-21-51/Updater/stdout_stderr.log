@@ -1,0 +1,30 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/Updater_node.dir/src/Updater_node.cpp.o[0m
+[01m[K/home/amitabh/ROS2_CashierSystem/src/Updater/src/Updater_node.cpp:[m[K In member function ‘[01m[Kvoid Subscriber::request(std::shared_ptr<tutorial_interfaces::srv::Display_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::Display_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/amitabh/ROS2_CashierSystem/src/Updater/src/Updater_node.cpp:83:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 | [01;35m[Kstd::shared_ptr<tutorial_interfaces::srv::Display::Request> request[m[K,std::shared_ptr<tutorial_interfaces::srv::Display::Response> response)
+      | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+
+[01m[K/home/amitabh/ROS2_CashierSystem/src/Updater/src/Updater_node.cpp:83:149:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   83 | ,[01;35m[Kstd::shared_ptr<tutorial_interfaces::srv::Display::Response> response[m[K)
+      |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+
+[100%] [32m[1mLinking CXX executable Updater_node[0m
+[100%] Built target Updater_node
+-- Install configuration: ""
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/lib/Updater/Updater_node
+-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/Updater/lib/Updater/Updater_node" to ""
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/ament_index/resource_index/package_run_dependencies/Updater
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/ament_index/resource_index/parent_prefix_path/Updater
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/ament_prefix_path.sh
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/ament_prefix_path.dsv
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/path.sh
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/path.dsv
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.bash
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.sh
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.zsh
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.dsv
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/package.dsv
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/ament_index/resource_index/packages/Updater
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/cmake/UpdaterConfig.cmake
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/cmake/UpdaterConfig-version.cmake
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/package.xml

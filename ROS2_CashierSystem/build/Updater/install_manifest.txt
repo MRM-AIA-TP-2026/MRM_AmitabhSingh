@@ -1,0 +1,16 @@
+/home/amitabh/ROS2_CashierSystem/install/Updater/lib/Updater/Updater_node
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/ament_index/resource_index/package_run_dependencies/Updater
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/ament_index/resource_index/parent_prefix_path/Updater
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/ament_prefix_path.sh
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/ament_prefix_path.dsv
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/path.sh
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/environment/path.dsv
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.bash
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.sh
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.zsh
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/local_setup.dsv
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/package.dsv
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/ament_index/resource_index/packages/Updater
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/cmake/UpdaterConfig.cmake
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/cmake/UpdaterConfig-version.cmake
+/home/amitabh/ROS2_CashierSystem/install/Updater/share/Updater/package.xml

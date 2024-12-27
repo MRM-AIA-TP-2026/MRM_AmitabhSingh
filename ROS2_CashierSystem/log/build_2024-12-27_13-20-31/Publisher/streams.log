@@ -1,0 +1,44 @@
+[0.012s] Invoking command in '/home/amitabh/ROS2_CashierSystem/build/Publisher': AMENT_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/amitabh/ROS2_CashierSystem/src/Publisher -DCMAKE_INSTALL_PREFIX=/home/amitabh/ROS2_CashierSystem/install/Publisher
+[0.074s] -- The C compiler identification is GNU 11.4.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.151s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.241s] -- Detecting C compile features - done
+[0.244s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.359s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.553s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.666s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.705s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.709s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.717s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.728s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.742s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.782s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.784s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.887s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.917s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.961s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.969s] -- Looking for pthread.h
+[1.055s] -- Looking for pthread.h - found
+[1.056s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.147s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.148s] -- Found Threads: TRUE  
+[1.193s] -- Found tutorial_interfaces: 0.0.0 (/home/amitabh/ROS2_CashierSystem/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.221s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.277s] WARNING: Package name "Publisher" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.311s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.311s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/amitabh/ROS2_CashierSystem/src/Publisher/include>
+[1.311s] -- Configured cppcheck exclude dirs and/or files: 
+[1.311s] -- Added test 'lint_cmake' to check CMake code style
+[1.313s] -- Added test 'uncrustify' to check C / C++ code style
+[1.313s] -- Configured uncrustify additional arguments: 
+[1.313s] -- Added test 'xmllint' to check XML markup files
+[1.315s] -- Configuring done
+[1.326s] -- Generating done
+[1.330s] -- Build files have been written to: /home/amitabh/ROS2_CashierSystem/build/Publisher

@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/Publisher_node.dir/src/Publisher_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable Publisher_node[0m
+[100%] Built target Publisher_node
+-- Install configuration: ""
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/lib/Publisher/Publisher_node
+-- Set runtime path of "/home/amitabh/ROS2_CashierSystem/install/Publisher/lib/Publisher/Publisher_node" to ""
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/ament_index/resource_index/package_run_dependencies/Publisher
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/ament_index/resource_index/parent_prefix_path/Publisher
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/environment/ament_prefix_path.sh
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/environment/ament_prefix_path.dsv
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/environment/path.sh
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/environment/path.dsv
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/local_setup.bash
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/local_setup.sh
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/local_setup.zsh
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/local_setup.dsv
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/package.dsv
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/ament_index/resource_index/packages/Publisher
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/cmake/PublisherConfig.cmake
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/cmake/PublisherConfig-version.cmake
+-- Installing: /home/amitabh/ROS2_CashierSystem/install/Publisher/share/Publisher/package.xml
